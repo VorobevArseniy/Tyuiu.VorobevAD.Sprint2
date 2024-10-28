@@ -9,12 +9,12 @@ namespace Tyuiu.VorobevAD.Sprint2.Task0.V26.Lib
         {
         return new bool[]
             {
-            x == y,              // 1. False
-            !(x != y),           // 2. False
-            !(x < y),            // 3. False
-            x > y,               // 4. True
-            !(x <= y),           // 5. True
-            x >= y               // 6. True
+                x == y,
+                x != y && false,
+                x < y,
+                x > y,
+                x <= y && true,
+                x >= y
             };
             throw new NotImplementedException();
         }

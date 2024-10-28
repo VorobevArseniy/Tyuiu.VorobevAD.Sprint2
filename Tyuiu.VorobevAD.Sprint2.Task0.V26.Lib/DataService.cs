@@ -1,4 +1,4 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint2
+﻿using tyuiu.cources.programming.interfaces.Sprint2;
 
 
 namespace Tyuiu.VorobevAD.Sprint2.Task0.V26.Lib

@@ -13,25 +13,25 @@ namespace Tyuiu.VorobevAD.Sprint2.Task5.V2.Lib
                 case 12:
                 case 1:
                 case 2:
-                    season = "Зима";
+                    season = "зима";
                     break;
 
                 case 3:
                 case 4:
                 case 5:
-                    season = "Весна";
+                    season = "весна";
                     break;
 
                 case 6:
                 case 7:
                 case 8:
-                    season = "Лето";
+                    season = "лето";
                     break;
 
                 case 9:
                 case 10:
                 case 11:
-                    season = "Осень";
+                    season = "осень";
                     break;
             }
 

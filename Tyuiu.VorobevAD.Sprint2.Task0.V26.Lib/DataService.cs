@@ -7,15 +7,15 @@ namespace Tyuiu.VorobevAD.Sprint2.Task0.V26.Lib
     {
         public bool[] GetCompareOperations(int x, int y)
         {
-            bool[] results = new bool[6];
-
-            results[0] = x == y;       // False
-            results[1] = x < y;        // False
-            results[2] = x <= y;       // False
-            results[3] = x > y;        // True
-            results[4] = x >= y;       // True
-            results[5] = x != y;       // True
-
+            bool[] results =
+            [
+                x == y,       // False
+                x < y,        // False
+                x <= y,       // False
+                x > y,        // True
+                x >= y,       // True
+                x != y,       // True
+            ];
             return (results);
 
             throw new NotImplementedException();

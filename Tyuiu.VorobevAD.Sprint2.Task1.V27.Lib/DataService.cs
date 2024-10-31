@@ -6,13 +6,15 @@ namespace Tyuiu.VorobevAD.Sprint2.Task1.V27.Lib
     {
         public bool[] GetLogicOperations(int a, int b, int c, int d)
         {
-            bool[] results = new bool[6];
-            results[0] = (a > b) & (c == d);            // False
-            results[1] = (a < b) | (c != d);            // False
-            results[2] = (a >= c) ^ (b < d);            // True
-            results[3] = !(a == 654) && (d > b);        // False
-            results[4] = (b <= d) || (c < a);           // True
-            results[5] = (a != b) && (c > d);           // False
+            bool[] results =
+            [
+                (a > b) & (c == d),            // False
+                (a < b) | (c != d),            // False
+                (a >= c) ^ (b < d),            // True
+                !(a == 654) && (d > b),        // False
+                (b <= d) || (c < a),           // True
+                (a != b) && (c > d),           // False
+            ];
             return results;
             throw new NotImplementedException();
         }

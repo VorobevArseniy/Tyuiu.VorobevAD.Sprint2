@@ -9,7 +9,7 @@ namespace Tyuiu.VorobevAD.Sprint2.Task1.V27.Lib
             bool[] results =
             [
                 (a > b) & (c == d),            // False
-                (a < b) | (c != d),            // False
+                (a > b) & (c > d),            // False
                 (a >= c) ^ (b < d),            // True
                 !(a == 654) && (d > b),        // False
                 (b <= d) || (c < a),           // True

@@ -29,12 +29,12 @@ namespace Tyuiu.VorobevAD.Sprint2.Task6.V8.Lib
                     _ => throw new ArgumentException("Недопустимый номер месяца")
                 };
 
-                return $"{daysInPrevMonth}.{m}";
+                return $"{m}.{daysInPrevMonth}";
             }
             else
             {
                 // Если n не равен 1, просто уменьшаем день на 1
-                return $"{n - 1}.{m}";
+                return $"{m}.{n - 1}";
             }
         }
     }

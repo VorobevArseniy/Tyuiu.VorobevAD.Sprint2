@@ -29,7 +29,7 @@ namespace Tyuiu.VorobevAD.Sprint2.Task6.V8.Lib
             }
             else
             {
-                return $"{m:D2}.{n - 1:D2}";
+                return $"{m - 1:D2}.{n:D2}";
             }
         }
     }

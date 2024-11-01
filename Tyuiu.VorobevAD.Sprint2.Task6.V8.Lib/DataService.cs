@@ -25,11 +25,11 @@ namespace Tyuiu.VorobevAD.Sprint2.Task6.V8.Lib
                     12 => 31,
                     _ => throw new ArgumentException("Недопустимый номер месяца")
                 };
-                return $"{daysInPrevMonth:D2}.{m:D2}";
+                return $"{m:D2}.{daysInPrevMonth:D2}";
             }
             else
             {
-                return $"{n - 1:D2}.{m:D2}";
+                return $"{m:D2}.{n - 1:D2}";
             }
         }
     }
